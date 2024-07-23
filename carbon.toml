@@ -1,0 +1,154 @@
+# Syntax highlighting
+# -------------------
+"attribute" = "base12"
+
+"type" = { fg = "base09", modifiers = ["italic"] }
+"type.enum.variant" = "base08"
+
+"constructor" = "base12"
+
+"constant" = "base14"
+"constant.character" = "base07"
+"constant.character.escape" = "base12"
+
+"string" = "base14"
+"string.regexp" = "base12"
+"string.special" = "base11"
+"string.special.symbol" = "base10"
+
+"comment" = { fg = "base03", modifiers = ["italic"] }
+
+"variable" = "base04"
+"variable.parameter" = { fg = "base04", modifiers = ["italic"] }
+"variable.builtin" = "base04"
+"variable.other.member" = { fg = "base12", modifiers = ["italic"] }
+
+"label" = "base09" # used for lifetimes
+
+"punctuation" = "cyan10"
+"punctuation.special" = "base08"
+"punctuation.bracket" = "cyan10"
+
+"keyword" = { fg = "base09", modifiers = ["italic"] }
+"keyword.control.conditional" = { fg = "base09", modifiers = ["italic"] }
+"keyword.function" = { fg = "aqua", modifiers = ["italic"] }
+
+"operator" = "base09"
+
+"function" = { fg = "base12", modifiers = ["italic"] }
+"function.macro" = { fg = "base07", modifiers = ["italic"] }
+
+"tag" = "base11"
+
+"namespace" = { fg = "aqua", modifiers = ["italic"] }
+
+"special" = "base11" # fuzzy highlight
+
+"markup.heading.marker" = { fg = "base15", modifiers = ["bold"] }
+"markup.heading.1" = "base10"
+"markup.heading.2" = "base12"
+"markup.heading.3" = "base13"
+"markup.heading.4" = "base14"
+"markup.heading.5" = "base07"
+"markup.heading.6" = "base08"
+"markup.list" = "base09"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "base11", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "base12"
+"markup.raw" = "base13"
+
+"diff.plus" = "base13"
+"diff.minus" = "base10"
+"diff.delta" = "base09"
+
+# User Interface
+# --------------
+"ui.background" = { fg = "base04", bg = "base00" }
+
+"ui.linenr" = { fg = "base02" }
+"ui.linenr.selected" = { fg = "base04" }
+
+"ui.statusline" = { fg = "blue60", bg = "base00" }
+"ui.statusline.inactive" = { fg = "base03", bg = "base01" }
+"ui.statusline.normal" = { fg = "base00", bg = "base09", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base00", bg = "base13", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "base00", bg = "base12", modifiers = ["bold"] }
+
+"ui.popup" = { fg = "base04", bg = "base01" }
+"ui.window" = { fg = "base01" }
+"ui.help" = { fg = "base03", bg = "base01" }
+
+"ui.bufferline" = { fg = "base03", bg = "base01" }
+"ui.bufferline.active" = { fg = "base09", bg = "base00", underline = { color = "base09", style = "none" } }
+"ui.bufferline.background" = { bg = "base01" }
+
+"ui.text" = "base04"
+"ui.text.focus" = { fg = "base04", bg = "base01", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "base03" }
+
+"ui.virtual" = "base02"
+"ui.virtual.ruler" = { bg = "base01" }
+"ui.virtual.indent-guide" = "base01"
+"ui.virtual.inlay-hint" = { fg = "base03", bg = "base00" }
+"ui.virtual.jump-label" = { fg = "base07", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "base02" }
+
+"ui.cursor" = { fg = "base00", bg = "base08" }
+"ui.cursor.primary" = { fg = "base00", bg = "base08" }
+"ui.cursor.match" = { fg = "base15", modifiers = ["bold"] }
+
+"ui.cursor.primary.normal" = { fg = "base00", bg = "green" }
+"ui.cursor.primary.insert" = { fg = "base00", bg = "base13" }
+"ui.cursor.primary.select" = { fg = "base00", bg = "base08" }
+
+"ui.cursor.normal" = { fg = "base00", bg = "base11" }
+"ui.cursor.insert" = { fg = "base00", bg = "base13" }
+"ui.cursor.select" = { fg = "base00", bg = "base08" }
+
+"ui.cursorline.primary" = { bg = "base01" }
+
+"ui.highlight" = { bg = "base02", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "white30", bg = "base01" }
+"ui.menu.selected" = { fg = "white30", bg = "base02", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "base10", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "base14", style = "curl" } }
+"diagnostic.info" = { underline = { color = "base09", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "base08", style = "curl" } }
+
+error = "base10"
+warning = "base14"
+info = "base09"
+hint = "base08"
+
+[palette]
+black = "#000000"
+white = "#FFFFFF"
+base00 = "#161616"
+base01 = "#262626"
+base02 = "#393939"
+base03 = "#525252"
+base04 = "#c8ccd4"
+base05 = "#d6cedd"
+base06 = "#fdfcfd"
+base07 = "#08bdba"
+base08 = "#3ddbd9"
+base09 = "#78a9ff"
+base10 = "#ee5396"
+base11 = "#78a8ff"
+base12 = "#ff7eb6"
+base13 = "#42be65"
+base14 = "#be95ff"
+base15 = "#82cfff"
+green = "#19b06a"
+aqua = "#00dfdb"
+yellow = "#fedc69"
+blue60 = "#0043ce"
+white10 = "#f4f4f4"
+white20 = "#e0e0e0"
+white30 = "#a8a8a8"
+cyan10 = "#6bcafe"
+cyan20 = "#32afff"
