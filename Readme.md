@@ -24,4 +24,4 @@ Below are a few screenshots for Python, Lua and svelte.
 ![Lua](screenshot-lua.png)
 
 ### Svelte
-![svelte](screenshot-svelete.png)
+![svelte](screenshot-svelte.png)
