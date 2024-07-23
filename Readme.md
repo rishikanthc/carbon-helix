@@ -13,3 +13,15 @@ In your helix config add
 ```toml
 theme = "carbon"
 ```
+
+## Screenshot
+Below are a few screenshots for Python, Lua and svelte.
+
+### Python
+![python](screenshot-python.png)
+
+### Lua
+![Lua](screenshot-lua.png)
+
+### Svelte
+![svelte](screenshot-svelete.png)
