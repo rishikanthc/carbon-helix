@@ -14,6 +14,12 @@ In your helix config add
 theme = "carbon"
 ```
 
+### Variants
+Based on some feedback I also created a non-italics version of the theme as it over-emphasizes
+things. I personally like italics a lot but for folks who don't want the italics, you can use
+the `carbon_dev` theme instead. Installation procedure is same as above, use the `carbon_dev.toml`
+file instead of `carbon.toml`
+
 ## Screenshot
 Below are a few screenshots for Python, Lua and svelte.
 
